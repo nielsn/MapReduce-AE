@@ -13,7 +13,6 @@ import org.apache.hadoop.mapreduce.RecordReader;
 import org.apache.hadoop.mapreduce.TaskAttemptContext;
 import org.apache.log4j.Logger;
 import org.jfairy.Fairy;
-import org.jfairy.producer.payment.CreditCardProducer;
 import org.jfairy.producer.person.Person;
 import org.jfairy.producer.person.PersonProperties;
 
@@ -45,16 +44,15 @@ public class RandomDataRecordReader extends RecordReader<Text, NullWritable>{
 		while((line = reader.readLine()) != null){
 			randomProducts.add(line);
 		}
-		
+		logger.debug(String.format("Added %d random product lines", randomProducts.size()));
 		reader.close();
 	}
 
 	@Override
 	public boolean nextKeyValue() throws IOException, InterruptedException {
-		logger.debug("Creating fake records");
 		if(createdRecords < numRecordsToCreate){
 			Person person = fairy.person(PersonProperties.minAge(16));
-			String record = person.fullName() + "::" + person.age() + "::" + person.username();
+			String record = person.fullName() + "," + person.age() + "," + person.username();
 			
 			key.set(record);
 			createdRecords++;

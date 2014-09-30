@@ -50,7 +50,7 @@ public class RandomDataGeneratorDriver extends Configured implements Tool{
 	public static void main(String[] args) throws Exception{
 		//This is the root logger provided by log4j
 		Logger rootLogger = Logger.getRootLogger();
-		rootLogger.setLevel(Level.DEBUG);
+		rootLogger.setLevel(Level.INFO);
 		 
 		//Define log pattern layout
 		PatternLayout layout = new PatternLayout("%d{ISO8601} [%t] %-5p %c %x - %m%n");
