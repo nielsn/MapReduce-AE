@@ -1,0 +1,158 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.9/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.9/ http://www.mediawiki.org/xml/export-0.9.xsd" version="0.9" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.24wmf20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>AccessibleComputing</title>
+    <ns>0</ns>
+    <id>10</id>
+    <redirect title="Computer accessibility" />
+    <revision>
+      <id>381202555</id>
+      <parentid>381200179</parentid>
+      <timestamp>2010-08-26T22:38:36Z</timestamp>
+      <contributor>
+        <username>OlEnglish</username>
+        <id>7181920</id>
+      </contributor>
+      <minor />
+      <comment>[[Help:Reverting|Reverted]] edits by [[Special:Contributions/76.28.186.133|76.28.186.133]] ([[User talk:76.28.186.133|talk]]) to last version by Gurch</comment>
+      <text xml:space="preserve">#REDIRECT [[Computer accessibility]] {{R from CamelCase}}</text>
+      <sha1>lo15ponaybcg2sf49sstw9gdjmdetnk</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Anarchism</title>
+    <ns>0</ns>
+    <id>12</id>
+    <revision>
+      <id>625820019</id>
+      <parentid>625819842</parentid>
+      <timestamp>2014-09-16T14:47:33Z</timestamp>
+      <contributor>
+        <username>MisterDub</username>
+        <id>12542885</id>
+      </contributor>
+      <minor />
+      <comment>/* Post-classical schools of thought */ Fixed citation</comment>
+      <text xml:space="preserve">{{Redirect2|Anarchist|Anarchists|the fictional character|Anarchist (comics)|other uses|Anarchists (disambiguation)}}
+{{Use British English|date=January 2014}}
+{{pp-move-indef}}
+{{Anarchism sidebar}}
+
+'''Anarchism''' is a [[political philosophy]] that advocates [[stateless society|stateless societies]] often defined as [[self-governance|self-governed]] voluntary institutions,&lt;ref&gt;&quot;ANARCHISM, a social philosophy that rejects authoritarian government and maintains that voluntary institutions are best suited to express man's natural social tendencies.&quot; George Woodcock. &quot;Anarchism&quot; at The Encyclopedia of Philosophy&lt;/ref&gt;&lt;ref&gt;&quot;In a society developed on these lines, the voluntary associations which already now begin to cover all the fields of human activity would take a still greater extension so as to substitute themselves for the state in all its functions.&quot; [http://www.theanarchistlibrary.org/HTML/Petr_Kropotkin___Anarchism__from_the_Encyclopaedia_Britannica.html Peter Kropotkin. &quot;Anarchism&quot; from the Encyclopædia Britannica]&lt;/ref&gt;&lt;ref&gt;&quot;Anarchism.&quot; The Shorter Routledge Encyclopedia of Philosophy. 2005. p. 14 &quot;Anarchism is the view that a society without the state, or government, is both possible and desirable.&quot;&lt;/ref&gt;&lt;ref&gt;Sheehan, Sean. Anarchism, London: Reaktion Books Ltd., 2004. p. 85&lt;/ref&gt; but that several authors have defined as more specific institutions based on non-[[Hierarchy|hierarchical]] [[Free association (communism and anarchism)|free associations]].&lt;ref&gt;&quot;as many anarchists have stressed, it is not government as such that they find objectionable, but the hierarchical forms of government associated with the nation state.&quot; Judith Suissa. ''Anarchism and Education: a Philosophical Perspective''. Routledge. New York. 2006. p. 7&lt;/ref&gt;&lt;ref name=&quot;iaf-ifa.org&quot;/&gt;&lt;ref&gt;&quot;That is why Anarchy, when it works to destroy authority in all its aspects, when it demands the abrogation of laws and the abolition of the mechanism that serves to impose them, when it refuses all hierarchical organisation and preaches free agreement — at the same time strives to maintain and enlarge the precious kernel of social customs without which no human or animal society can exist.&quot; [[Peter Kropotkin]]. [http://www.theanarchistlibrary.org/HTML/Petr_Kropotkin__Anarchism__its_philosophy_and_ideal.html Anarchism: its philosophy and ideal]&lt;/ref&gt;&lt;ref&gt;&quot;anarchists are opposed to irrational (e.g., illegitimate) authority, in other words, hierarchy — hierarchy being the institutionalisation of authority within a society.&quot; [http://www.theanarchistlibrary.org/HTML/The_Anarchist_FAQ_Editorial_Collective__An_Anarchist_FAQ__03_17_.html#toc2 &quot;B.1 Why are anarchists against authority and hierarchy?&quot;] in [[An Anarchist FAQ]]&lt;/ref&gt; Anarchism holds the [[state (polity)|state]] to be undesirable, unnecessary, or harmful.&lt;ref name=&quot;definition&quot;&gt;
+
+==See also==
+* [[Anarchist economics]]
+* [[Anarchist symbolism]]
+* [[Libertarianism]]
+* [[Lists of anarchism topics]]
+* [[List of anarchist communities]]
+* [[List of anarchist movements by region]]
+* [[List of films dealing with Anarchism]]
+* [[Outline of anarchism]]
+* {{Lookfrom|Anarch}}
+{{Portal bar|Anarchism|Social and political philosophy|Social movements}}
+
+== References ==
+{{Reflist|30em}}
+
+==Further reading==
+* [[Harold Barclay|Barclay, Harold]], ''People Without Government: An Anthropology of Anarchy'' (2nd ed.), Left Bank Books, 1990 ISBN 1-871082-16-1
+* Blumenfeld, Jacob; Bottici, Chiara; [[Simon Critchley|Critchley, Simon]], eds., ''The Anarchist Turn'', Pluto Press. 19 March 2013. ISBN 9780745333427
+* [[April Carter|Carter, April]], ''The Political Theory of Anarchism'', Harper &amp; Row. 1971. ISBN 978-0-06-136050-3
+* Gordon, Uri, ''Anarchy Alive!'', London: [[Pluto Press]], 2007.
+* Graham, Robert, ed., ''[[Anarchism: A Documentary History of Libertarian Ideas]]''.
+** ''Volume One: From Anarchy to Anarchism (300CE to 1939)'', [[Black Rose Books]], Montréal and London 2005. ISBN 1-55164-250-6.
+** ''Volume Two: The Anarchist Current (1939–2006)'', Black Rose Books, Montréal 2007. ISBN 978-1-55164-311-3.
+* [[Daniel Guerin|Guerin, Daniel]], [http://www.theanarchistlibrary.org/HTML/Daniel_Guerin__Anarchism__From_Theory_to_Practice.html ''Anarchism: From Theory to Practice''], Monthly Review Press. 1970. ISBN 0-85345-175-3
+* [[Clifford Harper|Harper, Clifford]], ''Anarchy: A Graphic Guide'', (Camden Press, 1987): An overview, updating Woodcock's classic, and illustrated throughout by Harper's woodcut-style artwork.
+* McKay, Iain, ed., ''[[An Anarchist FAQ]]''.
+** ''Volume I'', [[AK Press]], Oakland/Edinburgh 2008;  558 pages, ISBN 978-1-902593-90-6.
+** ''Volume II'', AK Press, Oakland/Edinburgh 2012; 550 Pages, ISBN 978-1-84935-122-5
+* McLaughlin, Paul, ''Anarchism and Authority: A Philosophical Introduction to Classical Anarchism'', AshGate. 2007. ISBN 0-7546-6196-2
+* [[Max Nettlau|Nettlau, Max]], ''Anarchy through the times'', Gordon Press. 1979. ISBN 0-8490-1397-6
+* {{cite book |author=Sartwell, Crispin|title=Against the state: an introduction to anarchist political theory|publisher=SUNY Press|year=2008|isbn=978-0-7914-7447-1|url=http://books.google.com/books?id=bk-aaMVGKO0C}}
+* [[James C. Scott|Scott, James C.]], ''Two Cheers for Anarchism: Six Easy Pieces on Autonomy, Dignity, and Meaningful Work and Play'', Princeton, NJ: Princeton University Press, 2012. ISBN 9780691155296.
+* [[George Woodcock|Woodcock, George]], ''Anarchism: A History of Libertarian Ideas and Movements'' (Penguin Books, 1962). ISBN 0-14-022697-4. {{oclc|221147531}}.
+* Woodcock, George, ed., ''The Anarchist Reader'' (Fontana/Collins 1977; ISBN 0-00-634011-3): An anthology of writings from anarchist thinkers and activists including [[Pierre-Joseph Proudhon|Proudhon]], [[Peter Kropotkin|Kropotkin]], [[Mikhail Bakunin|Bakunin]], [[Errico Malatesta|Malatesta]], [[Murray Bookchin|Bookchin]], [[Emma Goldman|Goldman]], and many others.
+* Woodcock, George, ed., ''Demanding the Impossible: A History of Anarchism'', PM Press. 2010. ISBN 1-60486-064-2
+
+==External links==
+{{External links|date=September 2014}}
+{{Sister project links|voy=no|n=no|v=no|b=Subject:Anarchism|s=Portal:Anarchism|d=Q6199}}
+*{{DMOZ|Society/Politics/Anarchism/}}
+* [http://anarchism.pageabode.com/afaq/index.html &quot;An Anarchist FAQ Webpage&quot;]&amp;nbsp;–[[An Anarchist FAQ]]
+* {{In Our Time|Anarchism|p0038x9t|Anarchism}}
+* [http://www.ditext.com/anarchism/ Anarchism: A Bibliography]
+* [http://www.gmu.edu/departments/economics/bcaplan/anarfaq.htm Anarchist Theory FAQ]&amp;nbsp;–by [[Bryan Caplan]]
+* [http://dwardmac.pitzer.edu/Anarchist_Archives/ Anarchy Archives]&amp;nbsp;– information relating to famous anarchists including their writings (see [[Anarchy Archives]]).
+* [http://recollectionbooks.com/bleed/gallery/galleryindex.htm Daily Bleed's Anarchist Encyclopedia]&amp;nbsp;–700+ entries, with short biographies, links and dedicated pages
+* [http://www.katesharpleylibrary.net/ KateSharpleyLibrary.net]&amp;nbsp;–website of the [[Kate Sharpley Library]], containing many historical documents pertaining to anarchism
+* [http://www.infoshop.org/ Infoshop.org]&amp;nbsp;– an online collection of news and information about anarchism.
+* [http://www.theanarchistlibrary.org/ The Anarchist Library] large online library with texts from anarchist authors
+* [http://www.theyliewedie.org/ressources/biblio/index-en.php They Lie We Die]&amp;nbsp;–anarchist virtual library containing 768 books, booklets and texts
+*[http://www.loc.gov/rr/rarebook/coll/014.html Anarchism Collection at the Library of Congress]
+&lt;!-- Attention! The external link portion of this article regularly grows far beyond manageable size. PLEASE only list an outside link if it applies to anarchism in general, is somewhat noteworthy, and has consensus on the talkpage. Links to sites which cover anarchist submovements will be routinely moved to subarticles to keep this article free of clutter --&gt;
+
+{{Anarchism}}
+{{Philosophy topics}}
+{{Political culture}}
+{{Political ideologies}}
+{{Social and political philosophy}}
+{{Aspects of Capitalism}}
+
+{{Good article}}
+
+[[Category:Anarchism| ]]
+[[Category:Political culture]]
+[[Category:Political ideologies]]
+[[Category:Social theories]]
+[[Category:Anti-fascism]]
+[[Category:Anti-capitalism]]
+[[Category:Far-left politics]]</text>
+      <sha1>be3fyvzcbdco1kntfkvxjmfpivxjj3s</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>
