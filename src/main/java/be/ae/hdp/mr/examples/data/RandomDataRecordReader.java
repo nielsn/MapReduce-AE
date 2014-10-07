@@ -52,7 +52,13 @@ public class RandomDataRecordReader extends RecordReader<Text, NullWritable>{
 	public boolean nextKeyValue() throws IOException, InterruptedException {
 		if(createdRecords < numRecordsToCreate){
 			Person person = fairy.person(PersonProperties.minAge(16));
-			String record = person.fullName() + "," + person.age() + "," + person.username();
+			String record = fairy.dateProducer().randomDateInThePast(3) + "," +
+							fairy.network().ipAddress() + "," +
+							person.fullName() + "," + 
+							person.age() + "," + 
+							person.username() + ", " +
+							fairy.baseProducer().randomBetween(0.5, 200) + "," +
+							fairy.baseProducer().randomElement(randomProducts);
 			
 			key.set(record);
 			createdRecords++;
