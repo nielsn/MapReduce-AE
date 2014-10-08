@@ -1,4 +1,4 @@
-package be.ae.hdp.mr.examples.wordcount;
+package be.ae.hdp.mr.examples.wiki.wordcount;
 
 import java.io.IOException;
 

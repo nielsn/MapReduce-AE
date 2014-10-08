@@ -9,6 +9,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
@@ -20,7 +21,6 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
 
 import be.ae.hdp.mr.examples.common.Utils;
-import edu.umd.cloud9.collection.wikipedia.WikipediaPageInputFormat;
 
 public class IndexingDriver extends Configured implements Tool {
 	private static final String appName = "WikiIndexing";
@@ -65,7 +65,7 @@ public class IndexingDriver extends Configured implements Tool {
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(IntWritable.class);
 
-		job.setInputFormatClass(WikipediaPageInputFormat.class);
+		job.setInputFormatClass(TextInputFormat.class);
 		job.setOutputFormatClass(TextOutputFormat.class);
 
 		FileInputFormat.setInputPaths(job, new Path(args[0]));

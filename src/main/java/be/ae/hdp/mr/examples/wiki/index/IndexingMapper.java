@@ -18,7 +18,7 @@ public class IndexingMapper extends Mapper<LongWritable, WikipediaPage, Text, Lo
 		
 		String text = p.getDisplayContent();
 		
-		for(String word : text.trim().replace('_', ' ').split("[\\W\\s]+")){
+		for(String word : text.trim().toLowerCase().replace('_', ' ').split("[\\W\\s]+")){
 			context.write(new Text(word.trim().toLowerCase()), key);
 		}
 		

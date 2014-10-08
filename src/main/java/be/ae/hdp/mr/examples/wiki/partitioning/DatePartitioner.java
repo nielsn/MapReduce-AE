@@ -15,7 +15,7 @@ public class DatePartitioner extends Partitioner<IntWritable, Text>
 
 	@Override
 	public int getPartition(IntWritable key, Text value, int numPartitions) {
-		return key.get() - minLastAccessDateYear;
+		return key.get() < minLastAccessDateYear ? 0 : key.get() - minLastAccessDateYear;
 	}
 
 	public Configuration getConf() {

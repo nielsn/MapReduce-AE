@@ -1,34 +1,20 @@
 package be.ae.hdp.mr.examples.wordcount;
 
 import java.io.IOException;
-import java.util.StringTokenizer;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-/**
- * Example based on Hadoop 2.0 and copying standard Wordcount example
- * 
- * @author acp
- * 
- */
-public class WordCountMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
-	private final IntWritable one = new IntWritable(1);
-	private Text word = new Text();
-
-	public WordCountMapper() {
-		System.out.println("Init WordCount Mapper");
-	}
-
+public class WordCountMapper extends Mapper<LongWritable, Text, Text, IntWritable>{
+	
+	private IntWritable one = new IntWritable(1);
+	
 	@Override
-	public void map(LongWritable key, Text value, Context context)
-			throws IOException, InterruptedException {
-		StringTokenizer itr = new StringTokenizer(value.toString());
-		while (itr.hasMoreTokens()) {
-			word.set(itr.nextToken());
-			context.write(word, one);
+	public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException{
+		for(String word : value.toString().split("\\s+")){
+			context.write(new Text(word), one);
 		}
 	}
 }

@@ -1,16 +1,14 @@
-package be.ae.hdp.mr.examples.wiki.binning;
-
+package be.ae.hdp.mr.examples.wiki.wordcount;
 
 import java.io.IOException;
 
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
@@ -23,32 +21,9 @@ import org.apache.log4j.PatternLayout;
 import be.ae.hdp.mr.examples.common.Utils;
 import edu.umd.cloud9.collection.wikipedia.WikipediaPageInputFormat;
 
-public class BinningDriver extends Configured implements Tool {
-
-	private static final String appName = "WikiBinning";
-	private static Logger logger;
-
-	@Override
-	public int run(String[] args) throws Exception {
-		Job job = Job.getInstance(getConf());
-		job.setJarByClass(BinningDriver.class);
-		job.setJobName(appName);
-
-		job.setMapperClass(BinningMapper.class);
-		
-		job.setInputFormatClass(WikipediaPageInputFormat.class);
-		job.setOutputFormatClass(TextOutputFormat.class);
-
-		FileInputFormat.setInputPaths(job, new Path(args[0]));
-		FileOutputFormat.setOutputPath(job,	new Path(Utils.getUniqueOutputFolder(appName, args[1])));
-		MultipleOutputs.addNamedOutput(job, "bins", TextOutputFormat.class, Text.class, NullWritable.class);
-		MultipleOutputs.setCountersEnabled(job, true);
-		
-		job.setNumReduceTasks(0);
-
-		boolean success = job.waitForCompletion(true);
-		return success ? 0 : 2;
-	}
+public class WordCountDriver extends Configured implements Tool{
+	private static final String appName = "WikiWordCount";
+	private static Logger logger = Logger.getLogger(WordCountDriver.class);
 
 	public static void main(String[] args) throws Exception {
 		// This is the root logger provided by log4j
@@ -70,7 +45,33 @@ public class BinningDriver extends Configured implements Tool {
 			e.printStackTrace();
 		}
 
-		ToolRunner.run(new BinningDriver(), args);
+		ToolRunner.run(new WordCountDriver(), args);
 	}
+	
+	@Override
+	public int run(String[] args) throws Exception {
+		Job job = Job.getInstance(getConf());
+		job.setJarByClass(WordCountDriver.class);
+		job.setJobName(appName);
+
+		job.setMapperClass(WordCountMapper.class);
+		job.setReducerClass(WordCountReducer.class);
+		job.setNumReduceTasks(1);
+		
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(IntWritable.class);
+
+		job.setInputFormatClass(WikipediaPageInputFormat.class);
+		job.setOutputFormatClass(TextOutputFormat.class);
+
+		FileInputFormat.setInputPaths(job, new Path(args[0]));
+		FileOutputFormat.setOutputPath(job,
+				new Path(Utils.getUniqueOutputFolder(appName, args[1])));
+		
+		boolean success = job.waitForCompletion(true);
+		return success ? 0 : 2;
+	}
+	
+	
 
 }
